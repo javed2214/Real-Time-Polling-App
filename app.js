@@ -11,6 +11,7 @@ const cors = require('cors');
 require('./config/db');
 
 const app = express();
+app.use(cors());
 
 const poll = require('./routes/poll');
 
@@ -22,7 +23,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 // Enable CORS
-app.use(cors());
+
 
 app.use('/poll', poll);
 
