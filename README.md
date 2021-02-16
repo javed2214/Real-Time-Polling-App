@@ -2,6 +2,8 @@
 
 > Real-Time polling application using Pusher, Node.js, Express, MongoDB and CanvasJS
 
+![Screenshot](image.png)
+
 ## Quick Start
 
 Create .env File in Root Folder and Add all the Environment Variables in that
@@ -16,4 +18,3 @@ npm run dev
 # Start
 npm start
 ```
-![Screenshot](image.png)
