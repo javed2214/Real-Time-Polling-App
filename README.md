@@ -4,7 +4,7 @@
 
 ## Quick Start
 
-Edit the config/keys.js file and add your MongoDB URI and Pusher key info
+Create .env File in Root Folder and Add all the Environment Variables in that
 
 ```bash
 # Install dependencies
