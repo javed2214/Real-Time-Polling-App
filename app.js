@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/poll', poll);
 
-const port = 3000;
+const port = process.env.PORT;
 
 // Start server
 app.listen(port, () => console.log(`Server started on port ${port}`));
